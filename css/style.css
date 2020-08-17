@@ -8197,12 +8197,12 @@ body {
     height: 100%;
     width: 100%; }
 
-a {
+p {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
   color: #96bb7c; }
-  a:hover, a:focus {
+  p:hover, p:focus {
     text-decoration: none;
     color: #96bb7c;
     outline: none !important; }
@@ -8434,8 +8434,11 @@ h1, h2, h3, h4, h5,
 .slider-text {
   height: 850px; }
   .slider-text h1 {
+    font-family: Russo one;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
     font-size: 60px;
-    color: #000000;
+    color: #f8f8f8;
     line-height: 1.1;
     font-weight: 400;
     position: relative; }
